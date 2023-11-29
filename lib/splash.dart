@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import 'home.dart';
+import 'login.dart';
 import 'main.dart';
 
 class splash extends StatefulWidget {
@@ -24,7 +24,7 @@ class _splashState extends State<splash> {
         context,
         MaterialPageRoute(
             builder: (context) => MyHomePage(
-                  title: "next halaman login",
+                  title: " ",
                 )));
   }
 
